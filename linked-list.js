@@ -142,3 +142,22 @@ LinkedList.prototype.indexOf = function(value) {
 // myLL.addToTail(3);
 // myLL.addToTail(8);
 // console.log(myLL.indexOf(3));
+
+
+// constant time O(1)
+add/remove head
+add/remove tail
+
+// Linear time O(n)
+search through LinkedList
+
+// some real life example using LinkedList
+online gaming
+poker, board games, dominoes
+
+// Why LinkedList is effecient?
+because data doesn't have to be stored together, like the graph.
+Each piece of data is stored on its own, each piece of data also
+have its next pointer that reference the location of the next piece
+of data. All the data are still connected, but not stored all in the
+same place. LinkedListare also effecient in using space and memory.
